@@ -1,0 +1,41 @@
+div {}
+
+.class {}
+
+#id {}
+
+.class1,
+.class2 {}
+
+.class p {
+    color: green;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    background-color: red;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.card div {
+    background-color: blue;
+    width: fit-content;
+    /* veya span etiketi kullanılabilir */
+}
+
+.card span{
+    background-color: blue;
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-item{
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    border: 1px solid black;
+}
